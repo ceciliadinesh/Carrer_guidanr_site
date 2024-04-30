@@ -1,0 +1,46 @@
+//global is for careerotaku
+//global 2 is for Career Test
+//global 3 is for index(homepage)
+//global 7 is for login page
+//global 4 is for signin page
+//global 5 is for job search
+//global 6 is for profile
+//THIS IS BECAUSE CECILIA IS BORED
+
+*/
+careerotaku
+file:///Users/ceciliadinesh/Desktop/carr%20on%20peak/careerotaku.html
+
+
+Carrer Test
+file:///Users/ceciliadinesh/Desktop/carr%20on%20peak/Careertest.html
+
+
+CECI (LINK OF Careertest)
+file:///Users/ceciliadinesh/Desktop/carr%20on%20peak/CEC.html
+
+
+INDEX(HOMEPAGE)
+file:///Users/ceciliadinesh/Desktop/carr%20on%20peak/index.html
+
+
+JOB SEARCH
+file:///Users/ceciliadinesh/Desktop/carr%20on%20peak/job-search.html
+
+
+LOGIN PAGE
+file:///Users/ceciliadinesh/Desktop/carr%20on%20peak/login.html
+
+
+SIGN IN PAGE
+file:///Users/ceciliadinesh/Desktop/carr%20on%20peak/signin.html
+
+
+PROFILE PAGE
+file:///Users/ceciliadinesh/Desktop/carr%20on%20peak/profile.html
+
+AVATARS
+file:///Users/ceciliadinesh/Desktop/carr%20on%20peak/avatar.html
+*/
+
+

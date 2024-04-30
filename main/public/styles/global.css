@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --body-text-work-sans: "Work Sans";
+
+  /* font sizes */
+  --body-text-work-sans-size: 22px;
+  --h1-work-sans-size: 67px;
+
+  /* Colors */
+  --background-secondary: #3b3b3b;
+  --white: #fff;
+}

@@ -1,0 +1,134 @@
+.banner-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.expect-advice-and,
+.kickstart-and-advance {
+  margin: 0;
+  position: relative;
+  text-transform: capitalize;
+  font-family: inherit;
+  z-index: 1;
+}
+.expect-advice-and {
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 160%;
+  font-weight: 400;
+}
+.kickstart-and-advance {
+  width: 510px;
+  font-size: var(--h1-work-sans-size);
+  line-height: 110%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.expect-advice-and-tools-to-ach-parent {
+  width: 1050px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-text-work-sans-size);
+  color: var(--white);
+  font-family: var(--h1-work-sans);
+}
+.rocketlaunch-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.rocketlaunch-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.button1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--h1-work-sans);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 92px;
+  white-space: nowrap;
+}
+.button,
+.careerotaku {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 19px 50px;
+  background-color: var(--background-secondary);
+  border-radius: 20px;
+  flex-direction: row;
+  gap: 12px;
+  z-index: 1;
+}
+.careerotaku {
+  width: 100%;
+  position: relative;
+  background-color: #2b2b2b;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 168px 102px 311px;
+  box-sizing: border-box;
+  gap: 37px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .careerotaku {
+    padding-left: var(--padding-32xl);
+    padding-right: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .kickstart-and-advance {
+    font-size: 54px;
+    line-height: 59px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .careerotaku {
+    gap: 18px;
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .expect-advice-and {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .kickstart-and-advance {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+

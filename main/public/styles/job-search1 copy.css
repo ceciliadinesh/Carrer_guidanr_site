@@ -1,0 +1,1446 @@
+.bird-2-removebg-preview-1-icon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    object-fit: cover;
+  }
+  .careerotaku {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 34px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: inherit;
+    background: linear-gradient(90deg, #3bd2d3, #ad26c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+  }
+  .nav-logo {
+    width: 206px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+    gap: var(--gap-12xs);
+    cursor: pointer;
+  }
+  .rocketlaunch-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    display: none;
+  }
+  .button {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 90px;
+    white-space: nowrap;
+  }
+  .marketplace {
+    border-radius: var(--br-xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xs) var(--padding-xl);
+    gap: var(--gap-xs);
+    cursor: pointer;
+  }
+  .rocketlaunch-icon1 {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    display: none;
+  }
+  .button1 {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 89px;
+    white-space: nowrap;
+  }
+  .rankings {
+    border-radius: var(--br-xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xs) var(--padding-xl);
+    gap: var(--gap-xs);
+  }
+  .rocketlaunch-icon2 {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    display: none;
+  }
+  .button2 {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 52px;
+    cursor: pointer;
+  }
+  .connect-a-wallet {
+    border-radius: var(--br-xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xs) var(--padding-xl);
+    gap: var(--gap-xs);
+  }
+  .user-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+  }
+  .button3 {
+    position: relative;
+    font-size: var(--basebody-work-sans-size);
+    line-height: 140%;
+    font-weight: 600;
+    font-family: var(--caption-work-sans);
+    color: var(--text);
+    text-align: center;
+    display: inline-block;
+    min-width: 60px;
+  }
+  .nav-nav-menu,
+  .sign-up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .sign-up {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lgi) var(--padding-11xl);
+    background-color: var(--call-to-action);
+    border-radius: var(--br-xl);
+    justify-content: center;
+    gap: var(--gap-xs);
+    white-space: nowrap;
+  }
+  .button4:hover,
+  .sign-up:hover {
+    background-color: var(--color-blueviolet-100);
+  }
+  .nav-nav-menu {
+    justify-content: flex-end;
+    gap: var(--gap-3xs);
+    max-width: 100%;
+    font-size: var(--basebody-work-sans-size);
+  }
+  .instance-child,
+  .navigation {
+    align-self: stretch;
+    box-sizing: border-box;
+  }
+  .navigation {
+    background-color: #3b3086;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-xl) 50px;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--text);
+    font-family: var(--caption-work-sans);
+  }
+  .instance-child {
+    height: 1px;
+    border-top: 1px solid var(--background-secondary);
+  }
+  .created,
+  .div,
+  .instance-child {
+    position: relative;
+  }
+  .created {
+    font-size: var(--h5-space-mono-size);
+    line-height: 31px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--caption-work-sans);
+    color: var(--caption-label-text);
+    text-align: center;
+  }
+  .div {
+    align-self: stretch;
+    font-size: var(--basebody-work-sans-size);
+    line-height: 140%;
+    font-family: var(--h5-space-mono);
+    color: var(--text);
+    text-align: left;
+  }
+  .tab,
+  .wrapper {
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    height: 32px;
+    border-radius: var(--br-xl);
+    background-color: var(--background-secondary);
+    display: none;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-3xs);
+  }
+  .tab {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 14.5px var(--padding-xl);
+    gap: var(--gap-base);
+    max-width: 100%;
+  }
+  .created1,
+  .div1 {
+    position: relative;
+    line-height: 140%;
+    color: var(--text);
+  }
+  .created1 {
+    font-size: var(--h5-space-mono-size);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--caption-work-sans);
+    text-align: center;
+    white-space: nowrap;
+  }
+  .div1 {
+    align-self: stretch;
+    font-size: var(--basebody-work-sans-size);
+    font-family: var(--h5-space-mono);
+    text-align: left;
+  }
+  .container,
+  .tab1 {
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+  }
+  .container {
+    height: 32px;
+    border-radius: var(--br-xl);
+    background-color: var(--caption-label-text);
+    display: flex;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-3xs);
+  }
+  .tab1 {
+    align-self: stretch;
+    width: 192px;
+    border-bottom: 2px solid var(--caption-label-text);
+    display: none;
+    justify-content: center;
+    padding: 0 var(--padding-11xl);
+    gap: var(--gap-base);
+  }
+  .created2,
+  .div2 {
+    position: relative;
+    line-height: 140%;
+  }
+  .created2 {
+    height: 31px;
+    flex: 1;
+    font-size: var(--h5-space-mono-size);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--caption-work-sans);
+    color: var(--caption-label-text);
+    text-align: center;
+    display: inline-block;
+  }
+  .div2 {
+    align-self: stretch;
+    font-size: var(--basebody-work-sans-size);
+    font-family: var(--h5-space-mono);
+    color: var(--text);
+    text-align: left;
+  }
+  .frame {
+    height: 32px;
+    border-radius: var(--br-xl);
+    background-color: var(--background-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .frame,
+  .tab2,
+  .tabs {
+    flex-direction: row;
+  }
+  .tab2 {
+    align-self: stretch;
+    width: 216px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-11xl);
+    box-sizing: border-box;
+    gap: var(--gap-base);
+  }
+  .tabs {
+    flex: 1;
+    justify-content: flex-start;
+  }
+  .content-area,
+  .line-parent,
+  .tabs,
+  .tabs-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .tabs-container {
+    width: 1050px;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .content-area,
+  .line-parent {
+    align-self: stretch;
+  }
+  .content-area {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .line-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--background);
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 9px;
+  }
+  .primary-photo-placeholder {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .secondary-photo-placeholder,
+  .secondary-photo-placeholder1 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: var(--br-xl);
+    object-fit: cover;
+  }
+  .b {
+    position: relative;
+    line-height: 160%;
+    text-transform: capitalize;
+  }
+  .number-of-additional-nfts {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--call-to-action);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-13xl) var(--padding-mini);
+  }
+  .photos-number-of-additional,
+  .secondary-photo-placeholder-parent {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+  }
+  .secondary-photo-placeholder-parent {
+    display: none;
+    flex-direction: row;
+  }
+  .photos-number-of-additional {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+  }
+  .personal-photographer,
+  .vasai-mumbai,
+  .yrs1-2-lacs-pa {
+    margin: 0;
+  }
+  .collection-name {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 140%;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .asset-12-2 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    object-fit: cover;
+  }
+  .avatar {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .artist-name {
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .artist-card,
+  .collection-card,
+  .collection-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .artist-card {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    flex-direction: row;
+    gap: var(--gap-xs);
+    font-size: var(--basebody-work-sans-size);
+  }
+  .collection-card,
+  .collection-info {
+    flex-direction: column;
+  }
+  .collection-info {
+    align-self: stretch;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-family: var(--caption-work-sans);
+  }
+  .collection-card {
+    width: 330px;
+    border-radius: var(--br-xl);
+    flex-shrink: 0;
+    gap: var(--gap-mini);
+  }
+  .primary-photo-placeholder1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .secondary-photo-placeholder2,
+  .secondary-photo-placeholder3 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: var(--br-xl);
+    object-fit: cover;
+  }
+  .b1 {
+    position: relative;
+    line-height: 160%;
+    text-transform: capitalize;
+  }
+  .number-of-additional-nfts1 {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--call-to-action);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-13xl) var(--padding-mini);
+  }
+  .photos-number-of-additional1,
+  .secondary-photo-placeholder-group {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+  }
+  .secondary-photo-placeholder-group {
+    display: none;
+    flex-direction: row;
+  }
+  .photos-number-of-additional1 {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+  }
+  .agriculturist,
+  .mahim-mumbai,
+  .yrs3-4-lacs-pa {
+    margin: 0;
+  }
+  .collection-name1 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 140%;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .asset-12-21 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    object-fit: cover;
+  }
+  .avatar1 {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .artist-name1 {
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .artist-card1,
+  .collection-card1,
+  .collection-info1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .artist-card1 {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    flex-direction: row;
+    gap: var(--gap-xs);
+    font-size: var(--basebody-work-sans-size);
+  }
+  .collection-card1,
+  .collection-info1 {
+    flex-direction: column;
+  }
+  .collection-info1 {
+    align-self: stretch;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-family: var(--caption-work-sans);
+  }
+  .collection-card1 {
+    width: 330px;
+    border-radius: var(--br-xl);
+    flex-shrink: 0;
+    gap: var(--gap-mini);
+  }
+  .primary-photo-placeholder2 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .secondary-photo-placeholder4,
+  .secondary-photo-placeholder5 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: var(--br-xl);
+    object-fit: cover;
+  }
+  .b2 {
+    position: relative;
+    line-height: 160%;
+    text-transform: capitalize;
+  }
+  .number-of-additional-nfts2 {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--call-to-action);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-13xl) var(--padding-mini);
+  }
+  .photos-number-of-additional2,
+  .secondary-photo-placeholder-container {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+  }
+  .secondary-photo-placeholder-container {
+    display: none;
+    flex-direction: row;
+  }
+  .photos-number-of-additional2 {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+  }
+  .software-developer,
+  .vasai-mumbai1,
+  .yrs8-10-lacs-pa {
+    margin: 0;
+  }
+  .collection-name2 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 140%;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .asset-12-22 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    object-fit: cover;
+  }
+  .avatar2 {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .artist-name2 {
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .artist-card2 {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    max-width: 100%;
+    font-size: var(--basebody-work-sans-size);
+  }
+  .collection-info2 {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-family: var(--caption-work-sans);
+  }
+  .collection-card-row,
+  .collection-card2,
+  .collection-info2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .collection-card2 {
+    width: 330px;
+    border-radius: var(--br-xl);
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: var(--gap-mini);
+  }
+  .collection-card-row {
+    overflow-x: auto;
+    flex-direction: row;
+    gap: var(--gap-11xl);
+  }
+  .primary-photo-placeholder3 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .secondary-photo-placeholder6,
+  .secondary-photo-placeholder7 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: var(--br-xl);
+    object-fit: cover;
+  }
+  .b3 {
+    position: relative;
+    line-height: 160%;
+    text-transform: capitalize;
+  }
+  .number-of-additional-nfts3 {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--call-to-action);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-13xl) var(--padding-mini);
+  }
+  .frame-div,
+  .photos-number-of-additional3 {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+  }
+  .frame-div {
+    display: none;
+    flex-direction: row;
+  }
+  .photos-number-of-additional3 {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+  }
+  .bandra-mumbai,
+  .data-analyst,
+  .yrs15-20-lacs-pa {
+    margin: 0;
+  }
+  .collection-name3 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 140%;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .asset-12-23 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    object-fit: cover;
+  }
+  .avatar3 {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .artist-name3 {
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .artist-card3,
+  .collection-card3,
+  .collection-info3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .artist-card3 {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    flex-direction: row;
+    gap: var(--gap-xs);
+    font-size: var(--basebody-work-sans-size);
+  }
+  .collection-card3,
+  .collection-info3 {
+    flex-direction: column;
+  }
+  .collection-info3 {
+    align-self: stretch;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-family: var(--caption-work-sans);
+  }
+  .collection-card3 {
+    width: 330px;
+    border-radius: var(--br-xl);
+    flex-shrink: 0;
+    gap: var(--gap-mini);
+  }
+  .primary-photo-placeholder4 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .secondary-photo-placeholder8,
+  .secondary-photo-placeholder9 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: var(--br-xl);
+    object-fit: cover;
+  }
+  .b4 {
+    position: relative;
+    line-height: 160%;
+    text-transform: capitalize;
+  }
+  .number-of-additional-nfts4 {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--call-to-action);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-13xl) var(--padding-mini);
+  }
+  .photos-number-of-additional4,
+  .secondary-photo-placeholder-parent1 {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+  }
+  .secondary-photo-placeholder-parent1 {
+    display: none;
+    flex-direction: row;
+  }
+  .photos-number-of-additional4 {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ethical-hacker,
+  .mahim-mumbai1,
+  .yrs30-40-lacs-pa {
+    margin: 0;
+  }
+  .collection-name4 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 140%;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .asset-12-24 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    object-fit: cover;
+  }
+  .avatar4 {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .artist-name4 {
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .artist-card4,
+  .collection-card4,
+  .collection-info4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .artist-card4 {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    flex-direction: row;
+    gap: var(--gap-xs);
+    font-size: var(--basebody-work-sans-size);
+  }
+  .collection-card4,
+  .collection-info4 {
+    flex-direction: column;
+  }
+  .collection-info4 {
+    align-self: stretch;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-family: var(--caption-work-sans);
+  }
+  .collection-card4 {
+    width: 330px;
+    border-radius: var(--br-xl);
+    flex-shrink: 0;
+    gap: var(--gap-mini);
+  }
+  .primary-photo-placeholder5 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .secondary-photo-placeholder10,
+  .secondary-photo-placeholder11 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: var(--br-xl);
+    object-fit: cover;
+  }
+  .b5 {
+    position: relative;
+    line-height: 160%;
+    text-transform: capitalize;
+  }
+  .number-of-additional-nfts5 {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--call-to-action);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-13xl) var(--padding-mini);
+  }
+  .photos-number-of-additional5,
+  .secondary-photo-placeholder-parent2 {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+  }
+  .secondary-photo-placeholder-parent2 {
+    display: none;
+    flex-direction: row;
+  }
+  .photos-number-of-additional5 {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+  }
+  .stock-analyst,
+  .vasai-mumbai2,
+  .yrs8-10-lacs-pa1 {
+    margin: 0;
+  }
+  .collection-name5 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 140%;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .asset-12-25 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    object-fit: cover;
+  }
+  .avatar5 {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .artist-name5 {
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .artist-card5,
+  .collection-card5,
+  .collection-info5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .artist-card5 {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    flex-direction: row;
+    gap: var(--gap-xs);
+    font-size: var(--basebody-work-sans-size);
+  }
+  .collection-card5,
+  .collection-info5 {
+    flex-direction: column;
+  }
+  .collection-info5 {
+    align-self: stretch;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-family: var(--caption-work-sans);
+  }
+  .collection-card5 {
+    width: 330px;
+    border-radius: var(--br-xl);
+    flex-shrink: 0;
+    gap: var(--gap-mini);
+  }
+  .collection-card-row2 {
+    flex-shrink: 0;
+    gap: var(--gap-11xl);
+  }
+  .collection-card-row1,
+  .collection-card-row2 {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .marketplace-section,
+  .nft-cards-section {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .nft-cards-section {
+    background-color: var(--background-primary);
+    align-items: center;
+    padding: 60px var(--padding-xl) 80px;
+    box-sizing: border-box;
+    gap: var(--gap-11xl);
+    text-align: center;
+    font-size: var(--h5-space-mono-size);
+    color: var(--text);
+    font-family: var(--h5-space-mono);
+  }
+  .marketplace-section {
+    align-items: flex-start;
+  }
+  .bird-2-removebg-preview-1-icon1 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    object-fit: cover;
+  }
+  .careerotaku1 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 34px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: inherit;
+    background: linear-gradient(90deg, #3bd2d3, #ad26c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .nav-logo1 {
+    width: 206px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+    gap: var(--gap-12xs);
+  }
+  .a-place-to,
+  .join-our-community {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+  }
+  .join-our-community {
+    line-height: 23px;
+  }
+  .discordlogo-icon,
+  .instagramlogo-icon,
+  .twitterlogo-icon,
+  .youtubelogo-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    min-height: 32px;
+    cursor: pointer;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .community-info {
+    align-self: stretch;
+    gap: var(--gap-3xs);
+  }
+  .additional-info,
+  .community-info,
+  .nft-marketplace-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .additional-info {
+    align-self: stretch;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--basebody-work-sans-size);
+  }
+  .nft-marketplace-info {
+    width: 327.4px;
+    padding: 0 89.4px 0 0;
+    box-sizing: border-box;
+    gap: var(--gap-11xl);
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-lightgray);
+    font-family: var(--caption-work-sans);
+  }
+  .career-test,
+  .explore1,
+  .job-search1 {
+    position: relative;
+    display: inline-block;
+  }
+  .explore1 {
+    margin: 0;
+    font-size: inherit;
+    line-height: 160%;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: inherit;
+    min-width: 95px;
+  }
+  .career-test,
+  .job-search1 {
+    line-height: 140%;
+    min-width: 89px;
+  }
+  .job-search1 {
+    min-width: 88px;
+  }
+  .explore,
+  .pages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pages {
+    gap: var(--gap-xl);
+    font-size: var(--basebody-work-sans-size);
+    color: var(--color-lightgray);
+    font-family: var(--caption-work-sans);
+  }
+  .explore {
+    padding: 0 145px 0 0;
+    gap: var(--gap-6xl);
+  }
+  .contact-us {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 160%;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .enter-your-email,
+  .write-your-quries {
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+  }
+  .write-your-quries {
+    width: 330px;
+    max-width: 100%;
+  }
+  .enter-your-email {
+    flex: 1;
+    min-width: 123px;
+  }
+  .envelopesimple-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    display: none;
+  }
+  .button5 {
+    position: relative;
+    font-size: var(--basebody-work-sans-size);
+    line-height: 140%;
+    font-weight: 600;
+    font-family: var(--caption-work-sans);
+    color: var(--text);
+    text-align: center;
+    display: inline-block;
+    min-width: 68px;
+  }
+  .button4,
+  .subscribe-form {
+    border-radius: var(--br-xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-xs);
+  }
+  .button4 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lgi) 49px;
+    background-color: var(--call-to-action);
+    justify-content: flex-end;
+    white-space: nowrap;
+  }
+  .subscribe-form {
+    align-self: stretch;
+    background-color: var(--text);
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-xl);
+    color: var(--background);
+  }
+  .subscribe-form-info {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-xl);
+    font-size: var(--basebody-work-sans-size);
+    color: var(--color-lightgray);
+    font-family: var(--caption-work-sans);
+  }
+  .footer-info,
+  .subscribe,
+  .subscribe-form-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .subscribe {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-6xl);
+    min-width: 273px;
+  }
+  .footer-info {
+    width: 1049.4px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 31px;
+  }
+  .divider,
+  .nft-market-use {
+    align-self: stretch;
+    position: relative;
+  }
+  .divider {
+    height: 1px;
+    border-top: 1px solid var(--caption-label-text);
+    box-sizing: border-box;
+  }
+  .nft-market-use {
+    line-height: 110%;
+  }
+  .copyright-area {
+    width: 1049.4px;
+    align-items: flex-start;
+    gap: 19px;
+    max-width: 100%;
+    font-size: var(--caption-work-sans-size);
+    color: var(--color-lightgray);
+    font-family: var(--caption-work-sans);
+  }
+  .copyright-area,
+  .footer,
+  .job-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .footer {
+    align-self: stretch;
+    background-color: var(--background-secondary);
+    border-top: 2px solid var(--background);
+    box-sizing: border-box;
+    align-items: center;
+    padding: 37px var(--padding-xl) 40px;
+    gap: var(--gap-11xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--h5-space-mono-size);
+    color: var(--text);
+    font-family: var(--h5-space-mono);
+  }
+  .job-search {
+    width: 100%;
+    position: relative;
+    background-color: #2b2b2b;
+    align-items: flex-start;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1100px) {
+    .nft-cards-section {
+      padding-top: 39px;
+      padding-bottom: 52px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .navigation {
+      padding-left: var(--padding-6xl);
+      padding-right: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .nav-nav-menu {
+      display: none;
+    }
+    .nft-cards-section {
+      padding-top: var(--padding-6xl);
+      padding-bottom: 34px;
+      box-sizing: border-box;
+    }
+    .footer-info {
+      gap: var(--gap-mini);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .b,
+    .created,
+    .created1,
+    .created2 {
+      font-size: var(--font-size-lg);
+      line-height: 25px;
+    }
+    .b {
+      line-height: 28px;
+    }
+    .b1,
+    .b2,
+    .collection-name,
+    .collection-name1 {
+      font-size: var(--font-size-lg);
+      line-height: 25px;
+    }
+    .b1,
+    .b2,
+    .collection-name1 {
+      line-height: 28px;
+    }
+    .b2,
+    .collection-name1 {
+      line-height: 25px;
+    }
+    .b2 {
+      line-height: 28px;
+    }
+    .b3,
+    .b4,
+    .collection-name2,
+    .collection-name3 {
+      font-size: var(--font-size-lg);
+      line-height: 25px;
+    }
+    .b3,
+    .b4,
+    .collection-name3 {
+      line-height: 28px;
+    }
+    .b4,
+    .collection-name3 {
+      line-height: 25px;
+    }
+    .b4 {
+      line-height: 28px;
+    }
+    .b5,
+    .collection-name4,
+    .collection-name5 {
+      font-size: var(--font-size-lg);
+      line-height: 25px;
+    }
+    .b5,
+    .collection-name5 {
+      line-height: 28px;
+    }
+    .collection-name5 {
+      line-height: 25px;
+    }
+    .careerotaku1 {
+      font-size: 19px;
+      line-height: 27px;
+    }
+    .nft-marketplace-info {
+      gap: var(--gap-mini);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .contact-us,
+    .explore1 {
+      font-size: var(--font-size-lg);
+      line-height: 28px;
+    }
+    .subscribe-form {
+      flex-wrap: wrap;
+      padding-top: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  

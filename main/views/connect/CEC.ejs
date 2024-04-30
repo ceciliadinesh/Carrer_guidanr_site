@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career Guide Quiz</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eaeaff; /* light purple-blue */
+        color: #333; /* dark grey */
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff; /* white */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+        color: #4b0082; /* indigo */
+    }
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+    button {
+        background-color: #4b0082; /* indigo */
+        color: #fff; /* white */
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Career Guide Quiz</h1>
+    <p>Answer the following questions to discover which career field might suit you best:</p>
+    <form id="quizForm">
+        <label>1. Do you enjoy working with your hands and being outdoors?</label>
+        <input type="radio" name="question1" value="realistic"> Yes
+        <input type="radio" name="question1" value="not_realistic"> No <br>
+        
+        <label>2. Are you curious and enjoy solving complex problems?</label>
+        <input type="radio" name="question2" value="investigative"> Yes
+        <input type="radio" name="question2" value="not_investigative"> No <br>
+        
+        <label>3. Do you have a creative side and enjoy expressing yourself through art or design?</label>
+        <input type="radio" name="question3" value="artistic"> Yes
+        <input type="radio" name="question3" value="not_artistic"> No <br>
+        
+        <label>4. Do you enjoy helping and working closely with others?</label>
+        <input type="radio" name="question4" value="social"> Yes
+        <input type="radio" name="question4" value="not_social"> No <br>
+        
+        <label>5. Are you ambitious and enjoy leading and persuading others?</label>
+        <input type="radio" name="question5" value="enterprising"> Yes
+        <input type="radio" name="question5" value="not_enterprising"> No <br>
+        
+        <label>6. Do you prefer working with clear guidelines and structure?</label>
+        <input type="radio" name="question6" value="conventional"> Yes
+        <input type="radio" name="question6" value="not_conventional"> No <br>
+	
+	 <label>7. Do you prefer working with gadgets?</label>
+        <input type="radio" name="question7" value="realistic"> Yes
+        <input type="radio" name="question7" value="not_realistic"> No <br>
+
+	 <label>8. Analyzing a situation or thing for its pros and cons?</label>
+        <input type="radio" name="question8" value="investigative"> Yes
+        <input type="radio" name="question8" value="not_investigative"> No <br>
+
+	 <label>9.Do you enjoy create or appreciating art?</label>
+        <input type="radio" name="question9" value="artistic"> Yes
+        <input type="radio" name="question9" value="not_artistic"> No <br>
+
+	 <label>10.Do you relate to others feeling and problems as your own?</label>
+        <input type="radio" name="question10" value="social"> Yes
+        <input type="radio" name="question10" value="not_social"> No <br>
+        
+        <button type="button" onclick="submitQuiz()">Submit</button>
+        <button type="button" onclick="redirectToSite()">Back</button>
+    </form>
+    <div id="result"></div>
+</div>
+
+<script>
+    function submitQuiz() {
+        var answers = document.querySelectorAll('input[type="radio"]:checked');
+        if (answers.length < 6) {
+            alert("Please answer all questions.");
+            return;
+        }
+        
+        var scores = {
+            realistic: 0,
+            investigative: 0,
+            artistic: 0,
+            social: 0,
+            enterprising: 0,
+            conventional: 0
+        };
+        
+        for (var i = 0; i < answers.length; i++) {
+            var value = answers[i].value;
+            scores[value]++;
+        }
+        
+        var maxScore = 0;
+        var maxField = '';
+        for (var field in scores) {
+            if (scores[field] > maxScore) {
+                maxScore = scores[field];
+                maxField = field;
+            }
+        }
+        
+        var resultText = '';
+        switch (maxField) {
+            case 'realistic':
+                resultText = 'Your results suggest a career in the Realistic field.';
+                break;
+            case 'investigative':
+                resultText = 'Your results suggest a career in the Investigative field.';
+                break;
+            case 'artistic':
+                resultText = 'Your results suggest a career in the Artistic field.';
+                break;
+            case 'social':
+                resultText = 'Your results suggest a career in the Social field.';
+                break;
+            case 'enterprising':
+                resultText = 'Your results suggest a career in the Enterprising field.';
+                break;
+            case 'conventional':
+                resultText = 'Your results suggest a career in the Conventional field.';
+                break;
+            default:
+                resultText = 'Your results do not match any specific field.';
+                break;
+        }
+        
+        document.getElementById('result').innerHTML = '<h2>Result:</h2>' + resultText;
+    }
+
+    function redirectToSite() {
+        window.location.href = "Careertest.html"; 
+    }
+</script>
+</body>
+</html>

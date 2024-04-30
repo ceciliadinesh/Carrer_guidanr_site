@@ -1,0 +1,248 @@
+.shape-container {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #3b3b3b;
+    width: 1339px;
+  }
+  .avatars1 {
+    position: absolute;
+    top: 62px;
+    left: 357px;
+    line-height: 74px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: flex-end;
+    width: 430px;
+    height: 74px;
+    z-index: 1;
+  }
+  .main-layout {
+    align-self: stretch;
+    height: 181px;
+    position: relative;
+    text-align: right;
+    font-size: 67px;
+    color: var(--text);
+    font-family: var(--h5-space-mono);
+  }
+  .avatar-1-icon,
+  .avatar-2-icon,
+  .avatar-3-icon,
+  .avatar-4-icon {
+    height: 94px;
+    width: 84px;
+    position: relative;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .avatar-5-icon {
+    height: 94px;
+    width: 84px;
+    position: relative;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .avatar-10-icon,
+  .avatar-6-icon,
+  .avatar-7-icon,
+  .avatar-8-icon,
+  .avatar-9-icon {
+    height: 94px;
+    width: 84px;
+    position: relative;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .avatar-row {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 45px 77.5px;
+    min-height: 242px;
+  }
+  .avatar-11-icon,
+  .avatar-16-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .avatar-11-parent {
+    align-self: stretch;
+    width: 84px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-35xl);
+  }
+  .avatar-12-icon,
+  .avatar-17-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .avatar-12-parent {
+    align-self: stretch;
+    width: 84px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-35xl);
+  }
+  .avatar-13-icon,
+  .avatar-18-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .avatar-13-parent {
+    align-self: stretch;
+    width: 84px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-35xl);
+  }
+  .avatar-14-icon,
+  .avatar-19-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .avatar-14-parent {
+    align-self: stretch;
+    width: 84px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-35xl);
+  }
+  .avatar-15-icon,
+  .avatar-20-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .avatar-15-parent {
+    align-self: stretch;
+    width: 84px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-35xl);
+  }
+  .avatar-grid,
+  .avatar-layout {
+    width: 734px;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .avatar-grid {
+    height: 141px;
+    overflow-x: auto;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .avatar-layout {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 55px;
+  }
+  .avatar-layout-wrapper,
+  .avatars {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .avatar-layout-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    max-width: 100%;
+  }
+  .avatars {
+    width: 1280px;
+    position: relative;
+    background-color: var(--color-gray-100);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 82px;
+    gap: 43px;
+    line-height: normal;
+    letter-spacing: normal;
+    max-width: 90%;
+    max-height: 90%;
+  }
+  @media screen and (max-width: 950px) {
+    .avatars1 {
+      font-size: 54px;
+      line-height: 59px;
+    }
+    .avatar-layout {
+      gap: 27px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .avatars1 {
+      font-size: 40px;
+      line-height: 44px;
+    }
+    .avatar-row {
+      gap: var(--gap-lgi);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .avatar-row {
+      gap: 39px;
+    }
+    .avatars {
+      gap: 21px;
+    }
+  }
+  
+  
